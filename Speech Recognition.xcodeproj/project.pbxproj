@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2199962221637640019CB4E /* SpeechToTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2199961221637640019CB4E /* SpeechToTextViewController.swift */; };
 		E2B1BC0D2210186700807544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B1BC0C2210186700807544 /* AppDelegate.swift */; };
-		E2B1BC0F2210186700807544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B1BC0E2210186700807544 /* ViewController.swift */; };
 		E2B1BC122210186700807544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B1BC102210186700807544 /* Main.storyboard */; };
 		E2B1BC152210186700807544 /* Speech_Recognition.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2B1BC132210186700807544 /* Speech_Recognition.xcdatamodeld */; };
 		E2B1BC172210186900807544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B1BC162210186900807544 /* Assets.xcassets */; };
@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2199961221637640019CB4E /* SpeechToTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextViewController.swift; sourceTree = "<group>"; };
 		E2B1BC092210186700807544 /* Speech Recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech Recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B1BC0C2210186700807544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2B1BC0E2210186700807544 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2B1BC112210186700807544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2B1BC142210186700807544 /* Speech_Recognition.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Speech_Recognition.xcdatamodel; sourceTree = "<group>"; };
 		E2B1BC162210186900807544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				E2B1BC0C2210186700807544 /* AppDelegate.swift */,
-				E2B1BC0E2210186700807544 /* ViewController.swift */,
 				E2B1BC102210186700807544 /* Main.storyboard */,
+				E2199961221637640019CB4E /* SpeechToTextViewController.swift */,
 				E2B1BC162210186900807544 /* Assets.xcassets */,
 				E2B1BC182210186900807544 /* LaunchScreen.storyboard */,
 				E2B1BC1B2210186900807544 /* Info.plist */,
@@ -139,8 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B1BC152210186700807544 /* Speech_Recognition.xcdatamodeld in Sources */,
-				E2B1BC0F2210186700807544 /* ViewController.swift in Sources */,
 				E2B1BC0D2210186700807544 /* AppDelegate.swift in Sources */,
+				E2199962221637640019CB4E /* SpeechToTextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
